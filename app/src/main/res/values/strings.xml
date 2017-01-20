@@ -6,7 +6,11 @@
 
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello World</string>
+<<<<<<< Updated upstream
     
+=======
+
+>>>>>>> Stashed changes
     <string name="name">Name:</string>
     <string name="name_hint">Your Name Goes Here</string>
     <string name="organisation">Organisation:</string>
@@ -31,4 +35,8 @@
 
     <string name="category">Choose your category</string>
     <string name="next">Next</string>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 </resources>

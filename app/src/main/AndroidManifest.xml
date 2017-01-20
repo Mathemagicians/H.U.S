@@ -31,15 +31,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-<<<<<<< Updated upstream
         <activity android:name=".FormEmployee" />
-        <activity android:name=".FormEmployer"></activity>
-=======
+        <activity android:name=".FormEmployer" />
         <activity android:name=".CategoryActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".LanguageActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
->>>>>>> Stashed changes
     </application>
 
 </manifest>
