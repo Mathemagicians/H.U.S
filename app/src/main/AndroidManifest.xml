@@ -31,7 +31,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".FormEmployee"></activity>
+        <activity android:name=".FormEmployee" />
+        <activity android:name=".FormEmployer"></activity>
     </application>
 
 </manifest>

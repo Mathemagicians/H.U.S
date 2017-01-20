@@ -10,12 +10,22 @@
     tools:showIn="@layout/app_bar_main">
 
     <Button
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="Employee Form"
         android:onClick="formEmployee"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_below="@id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Employer Form"
+        android:onClick="formEmployer"/>
 
 
 </RelativeLayout>

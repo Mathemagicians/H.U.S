@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity
     public void formEmployee(View view){
         startActivity(new Intent(MainActivity.this,FormEmployee.class));
     }
+    public void formEmployer(View view){
+        startActivity(new Intent(MainActivity.this,FormEmployer.class));
+    }
     public void setLocale(String lang) {
         Locale myLocale = new Locale(lang);
         Resources res = getResources();

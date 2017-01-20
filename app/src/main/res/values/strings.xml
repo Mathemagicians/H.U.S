@@ -10,10 +10,18 @@
     <string name="name_hint">Your Name Goes Here</string>
     <string name="organisation">Organisation:</string>
     <string name="org_hint">Company/Organisation You Work For</string>
+    <string name="org_hint2">Company/Organisation You Own</string>
     <string name="cur_sal">Current Salary:</string>
     <string name="curr_sal_hint">Your Current Salary Goes Here</string>
     <string name="join_sal">Joining Salary:</string>
     <string name="join_sal_hint">Your Joining Salary Goes Here</string>
     <string name="rs">In Rupees</string>
     <string name="inc">Monthly Increment (if any):</string>
+    <string name="header2">Employer Information</string>
+    <string name="header1">Employee Information</string>
+    <string name="emp_no">Number Of Employees:</string>
+    <string name="emp_no_hint">Number Of Employees in Your Organisation</string>
+    <string name="income">Income:</string>
+    <string name="inc_hint">Organisation Income</string>
+
 </resources>
