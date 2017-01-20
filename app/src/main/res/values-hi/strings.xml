@@ -3,4 +3,9 @@
     <string name="app_name">H.U.S</string>
     <string name="hello_world">नमस्ते दुनिया</string>
     <string name="action_settings">सेटिंग्स</string>
+    <string name="category">अपनी श्रेणी चुनें</string>
+    <string name="opt1">उद्यम / नियोक्ता</string>
+    <string name="opt2">श्रमिक / कर्मचारी</string>
+    <string name="opt3">स्व कार्यरत कार्यकर्ता</string>
+    <string name="next">अगला</string>
 </resources>
