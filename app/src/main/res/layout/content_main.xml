@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Employee Form"
+        android:text="@string/form1"
         android:onClick="formEmployee"/>
     <Button
         android:id="@+id/btn2"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Employer Form"
+        android:text="@string/form2"
         android:onClick="formEmployer"/>
 
 

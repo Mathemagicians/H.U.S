@@ -8,4 +8,25 @@
     <string name="opt2">श्रमिक / कर्मचारी</string>
     <string name="opt3">स्व कार्यरत कार्यकर्ता</string>
     <string name="next">अगला</string>
+    <string name="form1">कर्मचारी प्रपत्र</string>
+    <string name="form2">नियोक्ता प्रपत्र</string>
+
+    <string name="name">नाम:</string>
+    <string name="name_hint">आपका नाम यहाँ लिखें</string>
+    <string name="organisation">संगठन:</string>
+    <string name="org_hint">संगठन जहां आप काम करते हो</string>
+    <string name="org_hint2">आपके संगठन</string>
+    <string name="cur_sal">वर्तमान वेतन:</string>
+    <string name="curr_sal_hint">अपने मौजूदा वेतन यहाँ भरो</string>
+    <string name="join_sal">प्रारंभिक वेतन:</string>
+    <string name="join_sal_hint">अपने शुरुआती वेतन यहाँ भरो</string>
+    <string name="rs">रूपये में</string>
+    <string name="inc">मासिक वेतन वृद्धि (अगर कोई है):</string>
+    <string name="header2">नियोक्ता जानकारी</string>
+    <string name="header1">कर्मचारी जानकारी</string>
+    <string name="emp_no">कर्मचारियों की संख्या:</string>
+    <string name="emp_no_hint">कर्मचारियों की संख्या अपने संगठन में</string>
+    <string name="income">आमदनी:</string>
+    <string name="inc_hint">संगठन आय</string>
+
 </resources>
