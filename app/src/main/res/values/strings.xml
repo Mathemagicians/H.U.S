@@ -62,7 +62,7 @@
         Toddy tappers, scavengers, carriers of head loads,
         drivers of animal driven vehicles, loaders and unloaders come under this category.</string>
 
-    <string name="intro5">Under Terms of Service Category:
+    <string name="intro2">Under Terms of Service Category:
         Midwives, domestic workers, fishermen and women, barbers, vegetable and fruit vendors,
         newspaper vendors, etc., belong to this category.</string>
 
@@ -70,6 +70,8 @@
     <string name="scheme2">The Unorganised Workers Social Security Rules 2008</string>
     <string name="scheme3">Aam Admi Bima Yojna</string>
     <string name="scheme4">Rashtriya Swasthya Bima Yojna</string>
+
+    <string name="proceed">Proceed</string>
 
     <string name="stats1">Currently, the number of scheduled employments in the Central sphere is 45
         whereas in the States sphere the number is 1650 (when all states are counted). With effect from November 2009,
@@ -103,4 +105,21 @@ As an employer, one of the advantages of dealing with a labor union is that it s
 Another advantage of dealing with labor unions is that it can improve employee satisfaction. When employees deal with unions, they may be more satisfied because they have a voice to speak to the employer. They get higher wages on average and better benefits packages. When you meet the needs of the employees better, they will be more satisfied in their jobs and will be willing to work harder for you. This could lead to higher productivity and better quality production.</string>
     <string name="emp7">Less Turnover
 Another advantage of labor unions for organizations is that they lead to less turnover. When you have a workforce that is comprised of labor union members, they will not leave their jobs as frequently. They have to pay dues to be a part of the union, and they typically do not want to lose their position in the organization. When you have lower levels of turnover, it saves your business money in the long run by not having to train as many new employees.</string>
+
+    <string name="problem">Problem</string>
+    <string name="stats">Stats</string>
+    <string name="schemes">Schemes</string>
+    <string name="form">Form</string>
+    <string name="aboutTitle">About</string>
+    <string name="share">Share</string>
+
+    <string name="self1">Expenses to Claim
+The cost of any goods or services you use fully for your business can be deducted from your sales revenue for tax purposes. Where an item is used partially for your business and partly for private purposes, such as your private car or home, you can claim the business proportion of the costs against your business profits. However, you must be able to justify the business proportion with evidence such as the miles driven, or space used by the business.</string>
+    <string name="self2">Capital allowances – if you purchase an item that is expected to last several years, such as a van, you can claim a special deduction known as a capital allowance. From April 2014, the first £500,000 you spend on equipment each year qualifies for 100% capital allowances in the year of purchase. This does not include cars.
+</string>
+    <string name="self3">Loan interest – if you take out a business loan the interest paid on that loan can be deducted from your sales revenue. The loan must be taken out to fund your business, rather than a personal loan or credit card borrowings.</string>
+    <string name="dev1" translatable="false">Rajat Goyal</string>
+    <string name="dev2" translatable="false">Shlok Nangia</string>
+
+
 </resources>

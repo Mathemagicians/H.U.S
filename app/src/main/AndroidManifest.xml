@@ -38,7 +38,8 @@
         <activity android:name=".employee.EmployeeActivity" />
         <activity android:name=".employer.EmployerActivity" />
         <activity android:name=".SelfOwnedActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DetailsActivity"></activity>
     </application>
 
 </manifest>

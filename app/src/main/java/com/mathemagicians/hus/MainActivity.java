@@ -2,8 +2,8 @@ package com.mathemagicians.hus;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -18,13 +18,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         category = getIntent().getIntExtra("category", 0);
-        if(category==1)
-            setContentView(R.layout.activity_form_empolyee);
-        else
-            setContentView(R.layout.activity_form_employer);
 
+    }
+
+    public void submit(View view) {
+        startActivity(new Intent(MainActivity.this, DetailsActivity.class).putExtra("category", category));
     }
 
     @Override
