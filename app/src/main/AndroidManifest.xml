@@ -39,7 +39,12 @@
         <activity
             android:name=".LanguageActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+<<<<<<< Updated upstream
         <activity android:name=".About"></activity>
+=======
+        <activity android:name=".employee.EmployeeActivity" />
+        <activity android:name=".employer.EmployerActivity"></activity>
+>>>>>>> Stashed changes
     </application>
 
 </manifest>

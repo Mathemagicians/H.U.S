@@ -25,14 +25,17 @@ public class CategoryActivity extends AppCompatActivity {
                 Intent i1 = new Intent(CategoryActivity.this, FormEmployer.class);
                 startActivity(i1);
                 finish();
+                return;
             case R.id.cate2:
                 Intent i2 = new Intent(CategoryActivity.this, FormEmployee.class);
                 startActivity(i2);
                 finish();
+                return;
             case R.id.cate3:
                 Intent i3 = new Intent(CategoryActivity.this, MainActivity.class);
                 startActivity(i3);
                 finish();
+                return;
         }
     }
 }

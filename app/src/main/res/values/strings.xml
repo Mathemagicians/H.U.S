@@ -7,9 +7,12 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello World</string>
 
+<<<<<<< Updated upstream
     <string name="form1">Employee Form</string>
     <string name="form2">Employer Form</string>
 
+=======
+>>>>>>> Stashed changes
     <string name="name">Name:</string>
     <string name="name_hint">Your Name Goes Here</string>
     <string name="organisation">Organisation:</string>
