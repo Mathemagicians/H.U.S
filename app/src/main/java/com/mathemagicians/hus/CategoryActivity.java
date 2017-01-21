@@ -22,12 +22,14 @@ public class CategoryActivity extends AppCompatActivity {
     public void next(View view) {
         switch(category.getCheckedRadioButtonId()) {
             case R.id.cate1:
-                Intent i1 = new Intent(CategoryActivity.this, FormEmployer.class);
+                Intent i1 = new Intent(CategoryActivity.this, MainActivity.class);
+                i1.putExtra("category", 0);
                 startActivity(i1);
                 finish();
                 return;
             case R.id.cate2:
-                Intent i2 = new Intent(CategoryActivity.this, FormEmployee.class);
+                Intent i2 = new Intent(CategoryActivity.this, MainActivity.class);
+                i2.putExtra("category", 1);
                 startActivity(i2);
                 finish();
                 return;
