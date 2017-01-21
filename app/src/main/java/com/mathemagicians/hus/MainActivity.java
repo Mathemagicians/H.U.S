@@ -3,6 +3,7 @@ package com.mathemagicians.hus;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -17,6 +18,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity
@@ -120,8 +123,27 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_share) {
+            try{
+                ArrayList<Uri> uris = new ArrayList<Uri>();
+                Intent sendIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+                sendIntent.setType("application/vnd.android.package-archive");
+                uris.add(Uri.fromFile(new File(getApplicationInfo().publicSourceDir)));
+                sendIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris);
+                startActivity(Intent.createChooser(sendIntent, null));
+
+
+            }catch(Exception e){
+
+                ArrayList<Uri> uris = new ArrayList<Uri>();
+                Intent sendIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+                sendIntent.setType("application/zip");
+                uris.add(Uri.fromFile(new File(getApplicationInfo().publicSourceDir)));
+                sendIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, uris);
+                startActivity(Intent.createChooser(sendIntent, null));
+            }
 
         } else if (id == R.id.nav_send) {
+            startActivity(new Intent(MainActivity.this,About.class));
 
         }
 

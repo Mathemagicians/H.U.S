@@ -9,7 +9,7 @@
 
     <string name="form1">Employee Form</string>
     <string name="form2">Employer Form</string>
-    
+
     <string name="name">Name:</string>
     <string name="name_hint">Your Name Goes Here</string>
     <string name="organisation">Organisation:</string>
@@ -32,7 +32,16 @@
     <string name="opt2">Workers / Employee</string>
     <string name="opt3">Self Employed Worker</string>
 
+    <string name="about" formatted="false">Unorganised-Sector Problem Over 94% of India’s working population is part of unorganized sector. The unorganized sector has low productivity and offers low wages, even though It accounted for over 94% of worker.</string>
+    <string name="about2">Due to this problem is faced by everyone (Employees, employers, the Government). Most of the time people are not aware of their rights and benefits/schemes provided by government.</string>
+    <string name="about3">This app helps Both the parties By informing their rights and Benefits of being Organised.</string>
+
+    <!--<string name="about">Unorganised-Sector Problem Over 94% of India’s working population is part of unorganized sector. The unorganized sector has low productivity and offers low wages, even though It accounted for over 94% of worker.</string>-->
+
+    <!--<string name="about2">Due to this problem is faced by everyone (Employees, employers, the Government). Most of the time people are not aware of their rights and benefits/schemes provided by government.</string>-->
+    <!--<string name="about3">This app helps Both the parties By informing their rights and Benefits of being Organised.</string>-->
+
     <string name="category">Choose your category</string>
     <string name="next">Next</string>
-    
+
 </resources>
