@@ -9,17 +9,6 @@
     tools:context="com.mathemagicians.hus.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <com.synnapps.carouselview.CarouselView
-        android:id="@+id/carouselView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        app:fillColor="@color/opaqueRed"
-        app:pageColor="@color/red1"
-        app:radius="6dp"
-        app:slideInterval="3000"
-        app:strokeColor="@color/opaqueBlue"
-        app:strokeWidth="1dp"/>
-
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
